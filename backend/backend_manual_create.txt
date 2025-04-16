@@ -1,0 +1,11 @@
+# crear ambiente virtual
+python -m venv vpad
+
+# instalar uvicorn y fastapi
+pip install fastapi uvicorn
+
+# definir archivo main con codigo
+Crear servicios basicos y ejecutables
+
+# ejecutar el archivo main
+uvicorn main:app --reload

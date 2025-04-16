@@ -1,0 +1,18 @@
+# para iniciar la base de datos 
+docker compose up
+
+# para ingresar dentro de la base de datos por terminal (la clave es la de la bd en el archivo compose)
+sudo docker exec -it mi-mysql mysql -u root -p
+
+# seleccionar la base de datos
+USE mi_base_de_datos;
+
+# Agregar tablas
+CREATE TABLE puntajes (id INT AUTO_INCREMENT PRIMARY KEY, USUARIO VARCHAR(100), PUNTAJE INT);
+
+# Poblar tablas
+INSERT INTO puntajes (USUARIO, PUNTAJE) VALUES ('MARO', 999), ('NATA', 998);
+
+# select 
+select * from puntajes;
+

@@ -1,0 +1,11 @@
+Proyecto Aplicado de Analitica de Datos - MIAD
+
+Backend - Python
+Frontend - React
+Data Base - MySql
+Deploy - Docker 
+
+Para realizar el deploy ejecutar el siguiente comando en la ruta raiz del proyecto
+docker compose up --build
+
+DashBoard - http://localhost:5173  

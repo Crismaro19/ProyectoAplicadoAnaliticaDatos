@@ -1,0 +1,34 @@
+# Crear proyecto pricipal
+mkdir PAD_MIAD_Proyecto
+
+# Link de daisyui con los pasos para configurar proyecto
+# Crear proyecto base de react con typescript
+npm create vite@latest frontend --template react
+
+# instalar las dependencias
+npm install tailwindcss@latest @tailwindcss/vite@latest daisyui@latest
+
+# Configurar el archivo - vite.config.js
+export default defineConfig({
+  plugins: [tailwindcss(), react()],
+});
+
+# Configurar el archivo - src/index.css (borrar todo y poner los tags)
+@import "tailwindcss";
+@plugin "daisyui";
+
+# instalar plugins para vsCode
+Tailwind CSS IntelliSense
+DaisyUI Snippets
+
+# ejecutar el proyecto react
+npm run dev
+
+# Archivos importantes
+index.html -> tiene el nombre de la pagina y el favicon
+package.json -> en la seccion de "scripts" tiene lo que podemos ejecutar con "npm run <>"
+
+### Graficos ###
+
+# instalar las librerias para graficos avanzados
+npm install chart.js react-chartjs-2
