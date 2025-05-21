@@ -1,3 +1,8 @@
 # Ignorar los archivos descomprmidos de /modelo/Data
 modelo/Data/**/*.csv
 modelo/Data/**/*.xlsx
+
+# Ignorar los venv propios de desarrollo
+backend/venvpad/
+db/vBd/
+modelo/vGPA/
