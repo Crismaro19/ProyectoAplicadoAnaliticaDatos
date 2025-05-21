@@ -32,9 +32,9 @@ def read_root():
 def read_item(item_id: int, q: str = None):
     return {"item_id": item_id, "query": q}
 
-@app.get("/bd/")
-def consulta_bd():
-    return consulta()
+@app.get("/bd/{query}")
+def consulta_bd(query: str):
+    return consulta(query)
 
 
 

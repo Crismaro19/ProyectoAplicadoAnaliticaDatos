@@ -1,21 +1,22 @@
 import pymysql
 
-def consulta():
+def consulta(query:str):
     # Configuración de conexión
     conn = pymysql.connect(
         host="mi-mysql",
+        # host="localhost",
         user="mi_usuario",
         password="mi_password",
         database="mi_base_de_datos",
         charset="utf8mb4",
-        cursorclass=pymysql.cursors.DictCursor  # Para obtener resultados como diccionarios
+        cursorclass=pymysql.cursors.DictCursor 
     )
 
     # Crear un cursor
     cursor = conn.cursor()
 
     # Ejecutar una consulta
-    cursor.execute("SELECT Customer_Age, sum(Total_Trans_Amt) sum_trans_amt  FROM bank_churners group by Customer_Age order by Customer_Age ")
+    cursor.execute(query)
 
     res = cursor.fetchall()
 
