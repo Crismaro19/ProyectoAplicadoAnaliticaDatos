@@ -1,0 +1,3 @@
+# Ignorar los archivos descomprmidos de /modelo/Data
+modelo/Data/**/*.csv
+modelo/Data/**/*.xlsx
