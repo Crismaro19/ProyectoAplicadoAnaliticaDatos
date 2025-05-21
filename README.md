@@ -1,6 +1,6 @@
-# 📊 Proyecto Aplicado - Maestría en Ingeniería Analítica de Datos (MIAD)
+# 📊 Proyecto Aplicado - Maestría en Inteligencia Analítica de Datos (MIAD)
 
-Este repositorio contiene el proyecto final desarrollado como parte del curso de la Maestría en Ingeniería Analítica de Datos (MIAD) de la Universidad de los Andes. El objetivo del proyecto es analizar y visualizar patrones de adopción digital en los municipios de Colombia, utilizando técnicas de análisis de datos, agrupamiento y visualización geoespacial.
+Este repositorio contiene el proyecto final desarrollado como parte del curso Proyecto aplicado en analítica de datos de la Maestría en Inteligencia Analítica de Datos (MIAD) de la Universidad de los Andes. El objetivo del proyecto es analizar y visualizar patrones de adopción digital en los municipios de Colombia, utilizando técnicas de analisis de datos y modelos de inteligencia artirficial.
 
 ## ✅ ¿Qué es y qué hace el artefacto?
 
@@ -43,44 +43,46 @@ El sistema desarrollado es una plataforma interactiva compuesta por:
 ```bash
 git clone https://github.com/Crismaro19/ProyectoAplicadoAnaliticaDatos.git
 cd ProyectoAplicadoAnaliticaDatos
-
-
-3. Ejecutar el sistema completo
-
 ```
+
+
+### 3. Ejecutar el sistema completo
+
+```bash
 docker compose up --build
 ```
 
 Esto construirá las imágenes necesarias y levantará los tres servicios:
 
-    mysql: Base de datos con el esquema y los datos iniciales.
+  - mysql: Base de datos con el esquema y los datos iniciales.
 
-    backend: API de FastAPI para la lógica de negocio y consultas.
+  - backend: API de FastAPI para la lógica de negocio y consultas.
 
-    frontend: Interfaz en React para visualización.
+  - frontend: Interfaz en React para visualización.
 
 
 
-4. Acceder a la aplicación
+### 4. Acceder a la aplicación
 
 Una vez iniciado el sistema, abre tu navegador y ve a:
 ```
 http://localhost:5173/
 ```
+---
 
 👤 Casos de uso y pasos para el usuario
 
-    Inicio del sistema: el usuario ejecuta docker compose up para levantar la aplicación.
+    1 Inicio del sistema: el usuario ejecuta docker compose up para levantar la aplicación.
 
-    Visualización inicial: se presenta un mapa de Colombia con municipios agrupados por color.
+    2 Visualización inicial: se presenta un mapa de Colombia con municipios agrupados por color.
 
-    Filtrar municipios: se puede elegir un cluster desde el menú desplegable y explorar qué municipios lo conforman.
+    3 Filtrar municipios: se puede elegir un cluster desde el menú desplegable y explorar qué municipios lo conforman.
 
-    Consulta avanzada: el backend permite construir nuevas visualizaciones a partir del dataset si se desea extender.
+    4 Consulta avanzada: el backend permite construir nuevas visualizaciones a partir del dataset si se desea extender.
 
-    Actualizar datos: reemplazando el archivo DataSetFinalProyectoGradoMIAD.csv y reiniciando los contenedores se puede trabajar con nuevos datos.
+    5 Actualizar datos: reemplazando el archivo DataSetFinalProyectoGradoMIAD.csv y reiniciando los contenedores se puede trabajar con nuevos datos.
 
-
+---
 
 📁 Estructura del repositorio
 ```
