@@ -87,15 +87,16 @@ http://localhost:5173/
 📁 Estructura del repositorio
 ```
 ProyectoAplicadoAnaliticaDatos/
-├── backend/              # API REST con FastAPI
-├── frontend/             # Visualización en React
+├── backend/                            # API REST con FastAPI
+├── frontend/                           # Visualización en React
 ├── db/
-│   └── cargarbd.py       # Script para cargar los datos a MySQL
+│   └── cargarbd.py                     # Script para cargar los datos a MySQL
 ├── modelo/
-│   ├── analisis.ipynb    # Análisis exploratorio y clustering
-│   └── data/             # Carpeta de datos
-├── docs/                 # Anexos técnicos (ver más abajo)
-├── docker-compose.yml    # Orquestación de servicios
+│   ├── Codigo
+│   │   └── EntregaFinal_PAAD.ipynb     # Análisis exploratorio y clustering
+│   └── data/                           # Carpeta de datos
+├── docs/                               # Anexos técnicos (ver más abajo)
+├── docker-compose.yml                  # Orquestación de servicios
 └── README.md
 ```
 
