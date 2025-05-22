@@ -1,1 +1,43 @@
-Aca va el reporte tecnico de experimentos
+1. Objetivo del Experimento 
+
+El objetivo principal del experimento fue validar la utilidad y eficacia de una herramienta interactiva desarrollada como apoyo para la toma de decisiones estratégicas en el mercado financiero, con enfoque territorial. Esta validación se enfocó en la medición del índice de adopción digital, una métrica clave para identificar niveles de desarrollo digital, brechas regionales y oportunidades de intervención en diversos municipios y ciudades del país. 
+
+Se diseñó un dashboard interactivo con filtros por clúster, municipio y dimensiones específicas, orientado a facilitar la comprensión de la información por parte de usuarios no técnicos. El propósito fue promover la generación de insights relevantes para la formulación de estrategias diferenciadas según el contexto digital de cada región. 
+
+El experimento también evaluó aspectos técnicos y funcionales de la herramienta, tales como eficiencia en el análisis, usabilidad y experiencia de usuario, mediante indicadores predefinidos que permitieran verificar el cumplimiento de los estándares de calidad esperados. 
+
+2. Metodología 
+
+Para evaluar la experiencia de uso, se aplicó la prueba estándar System Usability Scale (SUS), reconocida internacionalmente por ofrecer una medición cuantitativa de la usabilidad. Esta metodología evalúa percepción de facilidad de uso, navegación, comprensión de contenidos e interacción general con la interfaz. 
+
+La prueba fue aplicada a cinco (5) usuarios seleccionados por su perfil como potenciales usuarios finales de la herramienta. Todos ellos compartían una característica clave: no tenían formación técnica en análisis de datos, pero sí participación activa en la toma de decisiones dentro del sector financiero o institucional. 
+
+Cada usuario exploró libremente la herramienta y diligenció un cuestionario con los 10 ítems de la escala SUS, junto con cinco preguntas adicionales orientadas a identificar fortalezas y oportunidades de mejora. También se observó el comportamiento durante la navegación. 
+
+Duración promedio por sesión: entre 15 y 20 minutos 
+
+Versión evaluada: versión funcional única, con datos reales 
+
+3. Resultados de la Evaluación 
+
+El puntaje promedio obtenido fue de 85 sobre 100, superando el umbral mínimo de referencia (≥ 80) y calificando la herramienta como altamente usable, según los estándares internacionales de la escala SUS. 
+
+Principales hallazgos: 
+
+Alta aceptación del diseño visual y la disposición de filtros por clúster y municipio, lo que facilitó una exploración autónoma de los datos. 
+
+Buena comprensión de los indicadores clave, gracias a textos explicativos y mejoras en tooltips y etiquetas. 
+
+Reducción en el tiempo para ejecutar tareas clave, como identificar brechas digitales o generar reportes. 
+
+Interfaz intuitiva y clara, que permitió una navegación fluida sin necesidad de asistencia técnica. 
+
+Los resultados también validaron la alineación de la herramienta con el Requerimiento R7 del marco funcional del proyecto, relacionado con la facilidad de uso para usuarios no técnicos. A partir de la retroalimentación recibida, se realizaron ajustes menores en el orden de los elementos visuales y la nomenclatura de los filtros para optimizar aún más la experiencia de navegación. 
+
+4. Interpretación del Resultado 
+
+Un puntaje de 85 en la escala SUS corresponde a una calificación tipo A, lo cual representa un nivel de usabilidad excelente. Los participantes encontraron el sistema intuitivo, con una curva de aprendizaje baja y con funcionalidades accesibles y bien integradas. Este resultado sugiere también una alta probabilidad de recomendación por parte de los usuarios evaluadores, lo cual respalda su viabilidad en contextos reales de uso. 
+ 
+5. Conclusión 
+
+El experimento de validación confirmó que la herramienta desarrollada cumple satisfactoriamente con los estándares esperados de facilidad de uso y experiencia de usuario para perfiles no técnicos. La alta puntuación obtenida respalda su implementación como solución de apoyo a la toma de decisiones estratégicas, especialmente en contextos donde se requiere una interfaz clara, accesible y funcional para públicos diversos. 
