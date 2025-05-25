@@ -75,7 +75,7 @@ http://localhost:5173/
 ```
 ---
 
-👤 Casos de uso y pasos para el usuario
+## 👤 Casos de uso y pasos para el usuario
 
     1 Inicio del sistema: el usuario ejecuta docker compose up para levantar la aplicación.
 
@@ -89,7 +89,7 @@ http://localhost:5173/
 
 ---
 
-📁 Estructura del repositorio
+## 📁 Estructura del repositorio
 ```
 ProyectoAplicadoAnaliticaDatos/
 ├── backend/                            # API REST con FastAPI
@@ -104,7 +104,23 @@ ProyectoAplicadoAnaliticaDatos/
 ├── docker-compose.yml                  # Orquestación de servicios
 └── README.md
 ```
+---
 
+## ⚙️ Anexos Técnicos
 
+- 📊 [Diagrama esquemático (EPGZ)](docs/DiagramaEsquematicoPAAD.epgz)  
+  Archivo editable del diagrama esquemático en formato EPGZ (yEd).
+
+- 🗺️ [Diagrama esquemático (PDF)](docs/DiagramaEsquematicoPAAD.pdf)  
+  Versión en PDF del diagrama de arquitectura del proyecto.
+
+- 📽️ [Presentación final (PPTX)](docs/Proyecto_Final_Analitica_Datos_Grupo15_Apropiacion.pptx)  
+  Presentación utilizada para exponer los resultados del proyecto.
+
+- 📈 [Reporte del experimento](docs/Reporte_experimento.pdf)  
+  Resultados, métricas y análisis del experimento final.
+
+- 📝 [Rúbrica de pruebas](docs/Rubrica_pruebas.pdf)  
+  Formato diligenciado con los criterios de evaluación del proyecto.
 
 
