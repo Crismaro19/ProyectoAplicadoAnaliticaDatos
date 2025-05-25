@@ -2,6 +2,11 @@
 
 Este repositorio contiene el proyecto final desarrollado como parte del curso Proyecto aplicado en analítica de datos de la Maestría en Inteligencia Analítica de Datos (MIAD) de la Universidad de los Andes. El objetivo del proyecto es analizar y visualizar patrones de adopción digital en los municipios de Colombia, utilizando técnicas de analisis de datos y modelos de inteligencia artirficial.
 
+## 🏅 Link de Presentación Ejecutiva Caso Apropiación digital
+
+[Presentación Ejecutiva Caso Apropiación digital](https://www.youtube.com/watch?v=OJITuIRtieI)
+
+
 ## ✅ ¿Qué es y qué hace el artefacto?
 
 El sistema desarrollado es una plataforma interactiva compuesta por:
